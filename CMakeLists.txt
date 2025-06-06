@@ -30,7 +30,6 @@ target_sources(MyAudioPlugin
         Source/PluginProcessor.h
         Source/PluginEditor.cpp
         Source/PluginEditor.h
-)
 
 target_compile_definitions(MyAudioPlugin
         PRIVATE
@@ -41,4 +40,4 @@ target_compile_definitions(MyAudioPlugin
 target_link_libraries(MyAudioPlugin
         PRIVATE
         juce::juce_audio_utils
-)
+))
