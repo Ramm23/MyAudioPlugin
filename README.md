@@ -1,3 +1,3 @@
 # AudioPluginTemplate
-A simple template for plugin development using JUCE and Clion
+A simple template for plugin development using JUCE and CMake
 
